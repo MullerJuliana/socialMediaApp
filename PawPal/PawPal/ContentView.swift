@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Image("contentView")
+                Image("ContentView")
                     .resizable() // Makes image resizable to fit the frame
                     .frame(width: 600, height: 1130) // Specific size for the image
                     .offset(y: -110)
@@ -29,7 +29,6 @@ struct ContentView: View {
                         Text("Log In")
                             .padding()
                             .frame(width: 200)
-//                            .background(Color(red: 232/255, green: 46/255, blue: 91/255))
                             .foregroundColor(.white)
                             .cornerRadius(12)
                             .font(.title2)
@@ -45,7 +44,6 @@ struct ContentView: View {
                         Text("Create Account")
                             .padding()
                             .frame(width: 200)
-//                            .background(Color(red: 232/255, green: 46/255, blue: 91/255))
                             .foregroundColor(.white)
                             
                             .font(.title2)
@@ -59,7 +57,6 @@ struct ContentView: View {
                 }
                 .offset(y: -160)
             }
-        .padding()
         }
     }
 }
