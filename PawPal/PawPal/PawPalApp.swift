@@ -11,7 +11,7 @@ import SwiftUI
 struct PawPalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViewPage()
         }
     }
 }

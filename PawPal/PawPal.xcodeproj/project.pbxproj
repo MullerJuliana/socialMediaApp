@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4BB96D592DD6A40D006DB4C0 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96D582DD6A40D006DB4C0 /* Images.swift */; };
 		4BB96D5B2DD7D7F8006DB4C0 /* AskPaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96D5A2DD7D7F8006DB4C0 /* AskPaw.swift */; };
+		4BB96D5D2DDCF4D7006DB4C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96D5C2DDCF4D7006DB4C0 /* Home.swift */; };
+		4BB96D5F2DDCF4FA006DB4C0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96D5E2DDCF4FA006DB4C0 /* Account.swift */; };
+		4BB96D612DDD1C47006DB4C0 /* TabViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96D602DDD1C47006DB4C0 /* TabViewPage.swift */; };
 		4BDA66C92DCC0ABC00453626 /* PawPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA66C82DCC0ABC00453626 /* PawPalApp.swift */; };
 		4BDA66CB2DCC0ABC00453626 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA66CA2DCC0ABC00453626 /* ContentView.swift */; };
 		4BDA66CD2DCC0ABF00453626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA66CC2DCC0ABF00453626 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		4BB96D582DD6A40D006DB4C0 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		4BB96D5A2DD7D7F8006DB4C0 /* AskPaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskPaw.swift; sourceTree = "<group>"; };
+		4BB96D5C2DDCF4D7006DB4C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4BB96D5E2DDCF4FA006DB4C0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4BB96D602DDD1C47006DB4C0 /* TabViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPage.swift; sourceTree = "<group>"; };
 		4BDA66C52DCC0ABC00453626 /* PawPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDA66C82DCC0ABC00453626 /* PawPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPalApp.swift; sourceTree = "<group>"; };
 		4BDA66CA2DCC0ABC00453626 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,10 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				4BDA66C82DCC0ABC00453626 /* PawPalApp.swift */,
+				4BB96D602DDD1C47006DB4C0 /* TabViewPage.swift */,
 				4BDA66CA2DCC0ABC00453626 /* ContentView.swift */,
-				4BDA66D62DCC172100453626 /* logIn.swift */,
 				4BDA66D82DCC173B00453626 /* createAccount.swift */,
+				4BDA66D62DCC172100453626 /* logIn.swift */,
+				4BB96D5C2DDCF4D7006DB4C0 /* Home.swift */,
 				4BB96D5A2DD7D7F8006DB4C0 /* AskPaw.swift */,
+				4BB96D5E2DDCF4FA006DB4C0 /* Account.swift */,
 				4BB96D582DD6A40D006DB4C0 /* Images.swift */,
 				4BDA66CC2DCC0ABF00453626 /* Assets.xcassets */,
 				4BDA66CE2DCC0ABF00453626 /* Preview Content */,
@@ -152,9 +161,12 @@
 				4BB96D5B2DD7D7F8006DB4C0 /* AskPaw.swift in Sources */,
 				4BDA66CB2DCC0ABC00453626 /* ContentView.swift in Sources */,
 				4BDA66C92DCC0ABC00453626 /* PawPalApp.swift in Sources */,
+				4BB96D612DDD1C47006DB4C0 /* TabViewPage.swift in Sources */,
 				4BB96D592DD6A40D006DB4C0 /* Images.swift in Sources */,
 				4BDA66D72DCC172100453626 /* logIn.swift in Sources */,
+				4BB96D5F2DDCF4FA006DB4C0 /* Account.swift in Sources */,
 				4BDA66D92DCC173B00453626 /* createAccount.swift in Sources */,
+				4BB96D5D2DDCF4D7006DB4C0 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
